@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Hyperf\ScanManager\Command;
 
 use Hyperf\Command\Command;
-use Hyperf\Utils\Filesystem\Filesystem;
+use Hyperf\Support\Filesystem\Filesystem;
 
 class ScanCacheCommand extends Command
 {
